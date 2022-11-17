@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<body id = "Background">
+    <style> #backdrop
+    {
+        background-color : green;
+    }
+    </style>
+    <style> #Background
+        {
+            background-color : green;
+        }
+    </style>
+    <style> #change
+        {
+            color : green;
+        }
+    </style>
+<script>
+    function button()
+    {
+        document.getElementById("change").setAttribute("style", "color : black")
+    }
+</script>
+
+<button id = "backdrop" onclick="button()"> <img id = "second" src="images/3third.png" height ="300" width="300" /> </button>
+<div class="">
+ <h1 id = "change">Everything is gunna be fine</h1>
+</div>
+
+</body>
+</html>
